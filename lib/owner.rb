@@ -42,5 +42,8 @@ class Owner
     pets[:dogs] << dog
   end
   
+  def self.walk_dogs(name)
+    
+  end  
   
 end
