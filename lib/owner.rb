@@ -54,4 +54,11 @@ class Owner
     pets[:fishes].map {|fish| fish.mood = "happy"}
   end  
 
+  def sell_pets
+    p
+  
+  
+  
+  
+
 end
