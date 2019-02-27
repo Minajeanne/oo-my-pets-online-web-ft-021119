@@ -3,8 +3,10 @@ class Owner
   attr_accessor :pets, :name
   attr_reader :species
   
-  def initialize(name, mood = "nervous")
-    @name = name
+  @@all = []
+  
+  def initialize(species)
+    @species = species
     @mood = mood
   end
   
