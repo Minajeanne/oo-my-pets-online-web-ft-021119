@@ -43,7 +43,7 @@ class Owner
   end
   
   def self.walk_dogs(name)
-    
+    pets[:dogs].map do {
   end  
   
 end
