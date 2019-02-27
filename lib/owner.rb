@@ -7,7 +7,8 @@ class Owner
   
   def initialize(species)
     @species = species
-    @mood = mood
+    @@all = self
+    
   end
   
   
